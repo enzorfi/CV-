@@ -1,0 +1,106 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poiret One', cursive;
+    color: rgb(245, 231, 231);
+    letter-spacing: 0.1em;
+}
+
+
+main {
+    background-color:#444c50;
+    
+    min-height: 100vh;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    
+}
+
+.glass { 
+min-height: 80vh;
+width: 90%;
+border-radius: 47px;
+background: #444c50;
+box-shadow: inset 5px 5px 10px #353b3e, 
+            inset -5px -5px 10px #535d62;
+margin: 7px;           
+
+
+ }
+
+
+.home {
+    margin: 5rem;
+    display: grid;
+    
+    border-radius: 12px;
+    width: 75px;
+    height: 75px;
+    
+    background: #444c50;
+    box-shadow:  5px 5px 10px #353b3e, 
+                 -5px -5px 10px #535d62;    
+} 
+
+.place {
+    display: grid;
+    place-items: center;
+    color: rgb(63, 53, 53);
+    margin-bottom: 10px;
+
+}
+
+.popper {
+    display: grid;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    background:  #444c50;
+box-shadow:  5px 5px 10px #353b3e, 
+             -5px -5px 10px rgb(73, 105, 185);
+    margin: 200px;    
+    place-content: center;     
+
+}
+
+.flex {
+    display: flex;
+}
+
+.box {
+    
+    height:300px;
+    width:500px;
+    box-shadow:  5px 5px 10px #353b3e, 
+             -5px -5px 10px rgb(73, 105, 185);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
